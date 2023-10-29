@@ -38,8 +38,6 @@
 			return $mostra_cost;			
  		}	
 	}
-		
-	#Calcula
 	$llauna_beguda = new llauna($_GET['r'],$_GET['l'],$_GET['g'],$_GET['d'],$_GET['cpg']);
 	echo $llauna_beguda->mostra_cost_fabricacio_llauna_en_dolars();
 ?>
